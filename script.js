@@ -59,5 +59,5 @@ searchButton.addEventListener("click",()=>{
     const query=searchText.value;
     if(!query)return;
     fetchnews(query);
-    
+
 });
